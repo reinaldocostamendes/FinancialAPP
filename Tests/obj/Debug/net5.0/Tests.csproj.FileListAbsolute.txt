@@ -14,6 +14,10 @@ C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Document_Api.dep
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Document_Api.runtimeconfig.json
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Document_Api.runtimeconfig.dev.json
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Document_Api.exe
+C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\ProductAPI.deps.json
+C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\ProductAPI.runtimeconfig.json
+C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\ProductAPI.runtimeconfig.dev.json
+C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\ProductAPI.exe
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\testhost.exe
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -175,6 +179,7 @@ C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\DocumentDomain.d
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Document_Api.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Document_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\ProductAPI.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\System.Reactive.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\BuyRequestDomain.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\BuyRequest_Api.pdb
@@ -185,6 +190,7 @@ C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\CashBook_Applica
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\DocumentDomain.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Document_Api.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Document_Application.pdb
+C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\ProductAPI.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\CashBook_API_Client.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\Infrastructure.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Tests\bin\Debug\net5.0\System.Reactive.xml

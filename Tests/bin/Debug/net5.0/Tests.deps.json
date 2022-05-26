@@ -21,6 +21,7 @@
           "Microsoft.Azure.DurableTask.Core": "2.9.0",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "Moq.AutoMock": "3.3.1-ci0247",
+          "ProductAPI": "1.0.0",
           "coverlet.collector": "3.1.0",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3",
@@ -1965,6 +1966,15 @@
           "Infrastructure.dll": {}
         }
       },
+      "ProductAPI/1.0.0": {
+        "dependencies": {
+          "BuyRequest_Application": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.3.0"
+        },
+        "runtime": {
+          "ProductAPI.dll": {}
+        }
+      },
       "System.Reactive.Reference/4.4.0.0": {
         "runtime": {
           "System.Reactive.dll": {
@@ -3201,6 +3211,11 @@
       "sha512": ""
     },
     "Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

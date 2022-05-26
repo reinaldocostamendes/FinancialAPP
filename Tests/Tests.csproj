@@ -32,6 +32,7 @@
     <ProjectReference Include="..\Document.Domain\DocumentDomain.csproj" />
     <ProjectReference Include="..\Document_Api\Document_Api.csproj" />
     <ProjectReference Include="..\Document_Application\Document_Application.csproj" />
+    <ProjectReference Include="..\ProductAPI\ProductAPI.csproj" />
   </ItemGroup>
 
 </Project>

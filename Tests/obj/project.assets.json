@@ -2858,6 +2858,23 @@
         "runtime": {
           "bin/placeholder/Infrastructure.dll": {}
         }
+      },
+      "ProductAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BuyRequest_Application": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.3.0"
+        },
+        "compile": {
+          "bin/placeholder/ProductAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductAPI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -9067,6 +9084,11 @@
       "type": "project",
       "path": "../Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
+    "ProductAPI/1.0.0": {
+      "type": "project",
+      "path": "../ProductAPI/ProductAPI.csproj",
+      "msbuildProject": "../ProductAPI/ProductAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9084,6 +9106,7 @@
       "Microsoft.Azure.DurableTask.Core >= 2.9.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "Moq.AutoMock >= 3.3.1-ci0247",
+      "ProductAPI >= 1.0.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -9147,6 +9170,9 @@
             },
             "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Document_Application\\Document_Application.csproj": {
               "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Document_Application\\Document_Application.csproj"
+            },
+            "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj": {
+              "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj"
             }
           }
         }
