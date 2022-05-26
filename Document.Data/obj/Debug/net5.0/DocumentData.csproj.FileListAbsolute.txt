@@ -1,0 +1,12 @@
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\bin\Debug\net5.0\DocumentData.deps.json
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\bin\Debug\net5.0\DocumentData.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\bin\Debug\net5.0\DocumentData.pdb
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\obj\Debug\net5.0\DocumentData.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\obj\Debug\net5.0\DocumentData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\obj\Debug\net5.0\DocumentData.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\obj\Debug\net5.0\DocumentData.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\obj\Debug\net5.0\DocumentData.csproj.CoreCompileInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\obj\Debug\net5.0\DocumentData.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\obj\Debug\net5.0\refint\DocumentData.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\obj\Debug\net5.0\DocumentData.pdb
+C:\Users\rcm_r\source\repos\FinancialAPP\Document.Data\obj\Debug\net5.0\ref\DocumentData.dll

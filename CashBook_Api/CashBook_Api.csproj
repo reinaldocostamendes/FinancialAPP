@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="AutoMapper" Version="11.0.1" />
+	  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+	  <PackageReference Include="FluentValidation" Version="11.0.1" />
+	  <PackageReference Include="FluentValidation.AspNetCore" Version="11.0.1" />
+	  <PackageReference Include="Json.Net" Version="1.0.33" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.5" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.15">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CashBook_API_Client\CashBook_API_Client.csproj" />
+    <ProjectReference Include="..\CashBook_Application\CashBook_Application.csproj" />
+  </ItemGroup>
+
+</Project>

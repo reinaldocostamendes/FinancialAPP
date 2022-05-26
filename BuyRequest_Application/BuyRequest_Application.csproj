@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="DevExpress.Data" Version="21.2.8-pre-22131" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuyRequest.Domain\BuyRequestDomain.csproj" />
+    <ProjectReference Include="..\CashBook_API_Client\CashBook_API_Client.csproj" />
+  </ItemGroup>
+
+</Project>
