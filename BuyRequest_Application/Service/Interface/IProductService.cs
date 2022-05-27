@@ -13,6 +13,8 @@ namespace BuyRequest_Application.Service.Interface
 
         Task<List<Product>> GetAllProductsByBuyRequestId(Guid orderId);
 
+        Task<Product> getProductById(Guid Id);
+
         Task DeleteProduct(Guid id);
 
         Task UpdateProduct(Product product);

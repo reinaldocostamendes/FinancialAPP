@@ -15,6 +15,8 @@ namespace BuyRequestData.Repository.Interface
 
         Task UpdateProduct(Product product);
 
+        Task<Product> getProductById(Guid Id);
+
         Task<List<Product>> GetAllProducts();
     }
 }

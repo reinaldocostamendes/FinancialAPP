@@ -33,6 +33,11 @@ namespace BuyRequestData.Repository
             }
         }
 
+        public async Task<Product> getProductById(Guid Id)
+        {
+            return await _context.Products.Where(p => p.Id == Id).FirstOrDefaultAsync();
+        }
+
         public async Task<List<Product>> GetAllProducts()
         {
             return await _context.Products.ToListAsync();

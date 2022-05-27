@@ -44,6 +44,12 @@ namespace ProductAPI.Controllers
             return await _iproductApplication.GetAllProducts();
         }
 
+        [HttpGet("GetById")]
+        public async Task<Product> GetById(Guid Id)
+        {
+            return await _iproductApplication.getProductById(Id);
+        }
+
         [HttpPut]
         public async Task<IActionResult> Put([FromBody] ProductDTO productDTO)
         {

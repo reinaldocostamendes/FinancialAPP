@@ -36,6 +36,11 @@ namespace BuyRequest_Application.Service
             return await _productRepository.GetAllProductsByBuyRequestId(orderId);
         }
 
+        public async Task<Product> getProductById(Guid Id)
+        {
+            return await _productRepository.getProductById(Id);
+        }
+
         public async Task UpdateProduct(Product product)
         {
             await _productRepository.UpdateProduct(product);

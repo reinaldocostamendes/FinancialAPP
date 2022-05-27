@@ -9,6 +9,8 @@ namespace BuyRequest_Application.Interface
     {
         Task AddProduct(Product Product);
 
+        Task<Product> getProductById(Guid Id);
+
         Task<List<Product>> GetAllProducts();
 
         Task<List<Product>> GetAllProductsByBuyRequestId(Guid orderId);
