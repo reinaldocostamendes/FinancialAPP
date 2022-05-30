@@ -1,10 +1,16 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Infrastructure.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Context
 {
     public class DataContext : DbContext
     {
         public DataContext(DbContextOptions options) : base(options) => Database.EnsureCreated();
+
+        public DbSet<BuyRequest> BuyRequests { get; set; }
+        public DbSet<CashBook> CashBooks { get; set; }
+        public DbSet<Document> Documents { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

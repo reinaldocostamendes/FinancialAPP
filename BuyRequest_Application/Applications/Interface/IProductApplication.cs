@@ -1,4 +1,5 @@
-﻿using Infrastructure.Entity;
+﻿using BuyRequestDomain.DTO;
+using Infrastructure.Entity;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -18,5 +19,9 @@ namespace BuyRequest_Application.Interface
         Task DeleteProduct(Guid id);
 
         Task UpdateProduct(Product product);
+
+        Task<Product> UpdateProductDTO(ProductDTO product);
+
+        Task<Product> AddProductDTO(ProductDTO Product);
     }
 }

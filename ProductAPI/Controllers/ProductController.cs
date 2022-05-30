@@ -38,6 +38,21 @@ namespace ProductAPI.Controllers
             return Ok(productInserted);
         }
 
+        /*   [HttpPost]
+           public async Task<IActionResult> Post([FromBody] ProductDTO productDTO)
+           {
+               Product productInserted = null;
+               try
+               {
+                   productInserted = await _iproductApplication.AddProductDTO(productDTO);
+               }
+               catch (Exception ex)
+               {
+                   return BadRequest(ex.Message);
+               }
+               return Ok(productInserted);
+           }*/
+
         [HttpGet]
         public async Task<List<Product>> GetAll([FromQuery] PageParameters pageParameters)
         {
@@ -64,6 +79,23 @@ namespace ProductAPI.Controllers
             }
             return Ok(productToUpdate);
         }
+
+        /*
+                [HttpPut]
+                public async Task<IActionResult> Put([FromBody] ProductDTO productDTO)
+                {
+                    Product productToUpdate = null;
+                    try
+                    {
+                        productToUpdate = await _iproductApplication.UpdateProductDTO(productDTO);
+                    }
+                    catch (Exception ex)
+                    {
+                        return BadRequest(ex.Message);
+                    }
+                    return Ok(productToUpdate);
+                }
+                */
 
         [HttpDelete]
         public async Task<IActionResult> Delete(Guid id)
