@@ -48,7 +48,7 @@ namespace CashBook_Application.Application
             return string_errors + " ]";
         }
 
-        public async Task<CashBookViewModel> GetAllCashBook(PageParameters pageParameters)
+        public async Task<CashBookModel> GetAllCashBook(PageParameters pageParameters)
         {
             return await _icashBookService.GetAllCashBook(pageParameters);
         }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VXj10PcrZrAQO+zLh0/vMjD06PbFKpH8+7L957qBfQbDhxKFmhoMiMZV3rr+8K+E11y79tlgAkiDou0q5sUtPg==",
+  "dgSpecHash": "X+I0PkbFxQhglAiHo4F55DI2kaE8S30L9OzLbWlOpXhISEjNR4gkZ45aX+jIgU842WOVh0tn1eNdG0+uLJjvBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Document_Api\\Document_Api.csproj",
   "expectedPackageFiles": [
@@ -64,6 +64,7 @@
     "C:\\Users\\rcm_r\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\rcm_r\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",

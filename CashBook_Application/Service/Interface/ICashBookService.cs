@@ -9,7 +9,7 @@ namespace CashBook_Application.Service.Interface
     {
         Task<CashBook> AddCashBook(CashBook cashbook);
 
-        Task<CashBookViewModel> GetAllCashBook(PageParameters pageParameters);
+        Task<CashBookModel> GetAllCashBook(PageParameters pageParameters);
 
         Task<CashBook> GetCashBookByOriginId(Guid Id);
 

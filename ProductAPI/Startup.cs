@@ -1,9 +1,9 @@
 using AutoMapper;
-using BuyRequest_Api.Data;
 using BuyRequest_Application.Applications;
 using BuyRequest_Application.Interface;
 using BuyRequest_Application.Service;
 using BuyRequest_Application.Service.Interface;
+using BuyRequestData.Context;
 using BuyRequestData.Repository;
 using BuyRequestData.Repository.Interface;
 using BuyRequestDomain.Mapping;
@@ -65,12 +65,9 @@ namespace ProductAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ProductAPI v1"));
-            }
+            app.UseDeveloperExceptionPage();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ProductAPI v1"));
 
             app.UseHttpsRedirection();
 

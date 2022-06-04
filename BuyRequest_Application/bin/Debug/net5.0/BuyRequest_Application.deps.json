@@ -9,6 +9,7 @@
       "BuyRequest_Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
+          "BuyRequestData": "1.0.0",
           "BuyRequestDomain": "1.0.0",
           "CashBook_API_Client": "1.0.0",
           "DevExpress.Data": "21.2.8-pre-22131",
@@ -1332,6 +1333,14 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "BuyRequestData/1.0.0": {
+        "dependencies": {
+          "Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "BuyRequestData.dll": {}
+        }
+      },
       "BuyRequestDomain/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
@@ -2356,6 +2365,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "BuyRequestData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "BuyRequestDomain/1.0.0": {
       "type": "project",

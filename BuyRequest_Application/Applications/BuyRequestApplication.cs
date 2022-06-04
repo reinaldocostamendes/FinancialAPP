@@ -34,7 +34,7 @@ namespace BuyRequest_Application.Applications
         public async Task<BuyRequest> AddBuyRequest(BuyRequestDTO buyRequestDTO)
         {
             var buy_request = _imapper.Map<BuyRequest>(buyRequestDTO);
-            buy_request.Id = Guid.NewGuid();
+            //  buy_request.Id = Guid.NewGuid();
 
             buy_request.Status = BuyRequestStatus.RECEIVED;
             if (!buy_request.IsValid())

@@ -1866,6 +1866,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "CashBookData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CashBookData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashBookData.dll": {}
+        }
+      },
       "CashBookDomain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6601,6 +6614,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "CashBookData/1.0.0": {
+      "type": "project",
+      "path": "../../CashBookData/CashBookData.csproj",
+      "msbuildProject": "../../CashBookData/CashBookData.csproj"
+    },
     "CashBookDomain/1.0.0": {
       "type": "project",
       "path": "../CashBook.Domain/CashBookDomain.csproj",
@@ -6615,6 +6633,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 11.0.1",
+      "CashBookData >= 1.0.0",
       "CashBookDomain >= 1.0.0"
     ]
   },
@@ -6650,6 +6669,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\rcm_r\\source\\repos\\CashBookData\\CashBookData.csproj": {
+              "projectPath": "C:\\Users\\rcm_r\\source\\repos\\CashBookData\\CashBookData.csproj"
+            },
             "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
               "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
             }

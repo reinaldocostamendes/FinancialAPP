@@ -75,7 +75,7 @@ namespace BuyRequest_Api.Controllers
         }
 
         [HttpPut("ChangeStatus")]
-        public async Task<IActionResult> ChangeStatus([FromBody] BuyRequestStatusViewModel buyRequestStatusViewModel)
+        public async Task<IActionResult> ChangeStatus([FromBody] BuyRequestStatusModel buyRequestStatusViewModel)
         {
             BuyRequest buyRequestChanged = null;
             try

@@ -1,8 +1,10 @@
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBook_Application.deps.json
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBook_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBook_Application.pdb
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBookData.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBookDomain.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBookData.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBookDomain.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\Infrastructure.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.csproj.AssemblyReference.cache

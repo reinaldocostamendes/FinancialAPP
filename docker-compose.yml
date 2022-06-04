@@ -1,0 +1,68 @@
+version: '3.4'
+networks:
+  backend:
+services:
+  cashbook_api:
+    image: ${DOCKER_REGISTRY-}cashbookapi
+    build:
+      context: .
+      dockerfile: CashBook_Api/Dockerfile
+    ports:
+     -  "8088:80"
+    depends_on:
+     - sqldatav2
+    networks:
+     - backend
+
+  buyrequest_api:
+    image: ${DOCKER_REGISTRY-}buyrequestapi
+    build:
+      context: .
+      dockerfile: BuyRequest_Api/Dockerfile
+    ports:
+     -  "8085:80"
+    depends_on:
+     - sqldatav2
+    networks:
+     - backend
+
+  document_api:
+    image: ${DOCKER_REGISTRY-}documentapi
+    build:
+      context: .
+      dockerfile: Document_Api/Dockerfile
+    ports:
+     -  "8086:80"
+    depends_on:
+     - sqldatav2
+    networks:
+     - backend
+
+  productapi:
+    image: ${DOCKER_REGISTRY-}productapi
+    build:
+      context: .
+      dockerfile: ProductAPI/Dockerfile
+    ports:
+     -  "8087:80"
+    depends_on:
+     - sqldatav2
+    networks:
+     - backend
+
+
+  sqldatav2:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqldatav2
+    environment:
+     - SA_PASSWORD=Numsey#2022
+     - ACCEPT_EULA=Y
+    volumes:
+     - C:\Dados\volumes\mssql:/var/opt/mssql/data
+    ports:
+     - "1433:1433"
+    networks:
+     - backend
+
+
+

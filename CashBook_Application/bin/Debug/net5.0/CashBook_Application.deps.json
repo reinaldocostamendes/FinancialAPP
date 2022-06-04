@@ -9,6 +9,7 @@
       "CashBook_Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
+          "CashBookData": "1.0.0",
           "CashBookDomain": "1.0.0"
         },
         "runtime": {
@@ -1362,6 +1363,14 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "CashBookData/1.0.0": {
+        "dependencies": {
+          "Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "CashBookData.dll": {}
+        }
+      },
       "CashBookDomain/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
@@ -2248,6 +2257,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "CashBookData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "CashBookDomain/1.0.0": {
       "type": "project",

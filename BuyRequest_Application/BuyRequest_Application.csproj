@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\BuyRequestData\BuyRequestData.csproj" />
     <ProjectReference Include="..\BuyRequest.Domain\BuyRequestDomain.csproj" />
     <ProjectReference Include="..\CashBook_API_Client\CashBook_API_Client.csproj" />
   </ItemGroup>

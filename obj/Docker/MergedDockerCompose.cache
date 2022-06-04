@@ -1,0 +1,84 @@
+name: dockercompose478022587515339535
+services:
+  buyrequest_api:
+    build:
+      context: C:\Users\rcm_r\source\repos\FinancialAPP
+      dockerfile: BuyRequest_Api/Dockerfile
+    depends_on:
+      sqldatav2:
+        condition: service_started
+    image: buyrequestapi
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8085"
+      protocol: tcp
+  cashbook_api:
+    build:
+      context: C:\Users\rcm_r\source\repos\FinancialAPP
+      dockerfile: CashBook_Api/Dockerfile
+    depends_on:
+      sqldatav2:
+        condition: service_started
+    image: cashbookapi
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8088"
+      protocol: tcp
+  document_api:
+    build:
+      context: C:\Users\rcm_r\source\repos\FinancialAPP
+      dockerfile: Document_Api/Dockerfile
+    depends_on:
+      sqldatav2:
+        condition: service_started
+    image: documentapi
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8086"
+      protocol: tcp
+  productapi:
+    build:
+      context: C:\Users\rcm_r\source\repos\FinancialAPP
+      dockerfile: ProductAPI/Dockerfile
+    depends_on:
+      sqldatav2:
+        condition: service_started
+    image: productapi
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8087"
+      protocol: tcp
+  sqldatav2:
+    container_name: sqldatav2
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Numsey#2022
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Dados\volumes\mssql
+      target: /var/opt/mssql/data
+      bind:
+        create_host_path: true
+networks:
+  backend:
+    name: dockercompose478022587515339535_backend

@@ -1,5 +1,5 @@
-﻿using CashBook_Application.Repository.Interface;
-using CashBook_Application.Service.Interface;
+﻿using CashBook_Application.Service.Interface;
+using CashBookData.Repository.Interface;
 using CashBookDomain.ViewModels;
 using Infrastructure.Entity;
 using Infrastructure.Service;
@@ -24,11 +24,11 @@ namespace CashBook_Application.Service
             return cashbook;
         }
 
-        public async Task<CashBookViewModel> GetAllCashBook(PageParameters pageParameters)
+        public async Task<CashBookModel> GetAllCashBook(PageParameters pageParameters)
         {
             var cashbooks = await _cashBookRepository.GetAllCashBook(pageParameters);
 
-            CashBookViewModel cbvm = new CashBookViewModel();
+            CashBookModel cbvm = new CashBookModel();
 
             var amount = cashbooks.Sum(p => p.Value);
             cbvm.Models = cashbooks;

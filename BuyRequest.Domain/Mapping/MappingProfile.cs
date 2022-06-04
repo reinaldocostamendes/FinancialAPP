@@ -15,7 +15,7 @@ namespace BuyRequestDomain.Mapping
             /*  CreateMap<BuyRequestDTO, BuyRequest>().ForMember(op => op.Products, map =>
               map.MapFrom(src => $"{custumizedListOrderProduct(src.Products.ToList())}")).ReverseMap();*/
 
-            CreateMap<BuyRequest, BuyRequestViewModel>().ReverseMap();
+            CreateMap<BuyRequest, BuyRequestModel>().ReverseMap();
 
             CreateMap<Product, ProductDTO>().ReverseMap();
 

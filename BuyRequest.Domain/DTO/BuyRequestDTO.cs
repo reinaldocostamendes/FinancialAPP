@@ -7,7 +7,7 @@ namespace BuyRequestDomain.DTO
 {
     public class BuyRequestDTO
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
         public long Code { get; set; }
         public DateTime Date { get; set; }
         public DateTime DeliveryDate { get; set; }

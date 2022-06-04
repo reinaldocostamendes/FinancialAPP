@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\DocumentData\DocumentData.csproj" />
     <ProjectReference Include="..\CashBook.Domain\CashBookDomain.csproj" />
     <ProjectReference Include="..\CashBook_API_Client\CashBook_API_Client.csproj" />
     <ProjectReference Include="..\Document.Domain\DocumentDomain.csproj" />

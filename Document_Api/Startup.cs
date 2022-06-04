@@ -2,11 +2,11 @@ using AutoMapper;
 using CashBook_API_Client.Configuration;
 using Document_Application.Application;
 using Document_Application.Application.Interface;
-using Document_Application.Context;
-using Document_Application.Repository;
-using Document_Application.Repository.Interface;
 using Document_Application.Service;
 using Document_Application.Service.Interface;
+using DocumentData.Context;
+using DocumentData.Repository;
+using DocumentData.Repository.Interface;
 using DocumentDomain.Mapping;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -60,12 +60,9 @@ namespace Document_Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Document_Api v1"));
-            }
+            app.UseDeveloperExceptionPage();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Document_Api v1"));
 
             app.UseHttpsRedirection();
 

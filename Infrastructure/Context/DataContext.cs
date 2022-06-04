@@ -29,7 +29,7 @@ namespace Infrastructure.Context
 
         public string ObterStringConexao()
         {
-            string strcon = "Server=Reinaldo\\SQLEXPRESS;Database=FinancialAppDb;Integrated Security=True";
+            string strcon = "Initial Catalog = FinancialAppDockerDb; Data Source=sqldatav2; Persist Security Info = True; User ID = SA; Password = Numsey#2022";
             return strcon;
         }
     }

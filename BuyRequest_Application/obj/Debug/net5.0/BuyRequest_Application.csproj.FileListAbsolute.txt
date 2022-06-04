@@ -1,10 +1,12 @@
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequest_Application.deps.json
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequest_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequest_Application.pdb
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequestData.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequestDomain.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\CashBookDomain.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\CashBook_API_Client.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequestData.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequestDomain.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\CashBook_API_Client.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\CashBookDomain.pdb

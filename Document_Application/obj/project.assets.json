@@ -2611,6 +2611,19 @@
           "bin/placeholder/CashBook_API_Client.dll": {}
         }
       },
+      "DocumentData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DocumentData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DocumentData.dll": {}
+        }
+      },
       "DocumentDomain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -8415,6 +8428,11 @@
       "path": "../CashBook_API_Client/CashBook_API_Client.csproj",
       "msbuildProject": "../CashBook_API_Client/CashBook_API_Client.csproj"
     },
+    "DocumentData/1.0.0": {
+      "type": "project",
+      "path": "../../DocumentData/DocumentData.csproj",
+      "msbuildProject": "../../DocumentData/DocumentData.csproj"
+    },
     "DocumentDomain/1.0.0": {
       "type": "project",
       "path": "../Document.Domain/DocumentDomain.csproj",
@@ -8432,6 +8450,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "CashBookDomain >= 1.0.0",
       "CashBook_API_Client >= 1.0.0",
+      "DocumentData >= 1.0.0",
       "DocumentDomain >= 1.0.0",
       "FluentValidation >= 11.0.1",
       "Infrastructure >= 1.0.0",
@@ -8471,6 +8490,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\rcm_r\\source\\repos\\DocumentData\\DocumentData.csproj": {
+              "projectPath": "C:\\Users\\rcm_r\\source\\repos\\DocumentData\\DocumentData.csproj"
+            },
             "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
               "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
             },

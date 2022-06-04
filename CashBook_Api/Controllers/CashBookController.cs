@@ -37,7 +37,7 @@ namespace CashBook_Api.Controllers
         }
 
         [HttpGet]
-        public async Task<CashBookViewModel> GetAll([FromQuery] PageParameters pageParameters)
+        public async Task<CashBookModel> GetAll([FromQuery] PageParameters pageParameters)
         {
             return await _icashBookApplication.GetAllCashBook(pageParameters);
         }
