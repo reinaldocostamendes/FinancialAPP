@@ -87,3 +87,6 @@ C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Api\obj\Debug\net5.0\refint\
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Api\obj\Debug\net5.0\BuyRequest_Api.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Api\obj\Debug\net5.0\BuyRequest_Api.genruntimeconfig.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Api\obj\Debug\net5.0\ref\BuyRequest_Api.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Api\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Api\bin\Debug\net5.0\Producer.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Api\bin\Debug\net5.0\Producer.pdb

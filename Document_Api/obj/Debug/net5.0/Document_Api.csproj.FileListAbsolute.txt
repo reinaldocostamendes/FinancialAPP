@@ -84,3 +84,6 @@ C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\refint\Do
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.genruntimeconfig.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\ref\Document_Api.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\Producer.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\Producer.pdb

@@ -33,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Producer\Producer.csproj" />
     <ProjectReference Include="..\CashBook_API_Client\CashBook_API_Client.csproj" />
     <ProjectReference Include="..\CashBook_Application\CashBook_Application.csproj" />
   </ItemGroup>

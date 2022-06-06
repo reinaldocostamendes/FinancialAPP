@@ -21,3 +21,5 @@ C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\D
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\refint\Document_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\ref\Document_Application.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\bin\Debug\net5.0\Producer.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\bin\Debug\net5.0\Producer.pdb

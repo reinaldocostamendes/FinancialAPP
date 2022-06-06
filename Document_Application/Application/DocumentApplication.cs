@@ -7,6 +7,7 @@ using DocumentDomain.DTO;
 using DocumentDomain.ViewModels;
 using Infrastructure.Entity;
 using Infrastructure.Entity.Enums;
+using Producer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,13 +19,13 @@ namespace Document_Application.Application
     {
         private readonly IDocumentService _idocumentService;
         private readonly IMapper _imapper;
-        private readonly ICashBookClient cashBookClient;
+        private readonly IMessageProducer _messagePublisher;
 
-        public DocumentApplication(IDocumentService idocumentService, IMapper imapper, ICashBookClient cashBookClient)
+        public DocumentApplication(IDocumentService idocumentService, IMapper imapper, IMessageProducer messageProducer)
         {
             _idocumentService = idocumentService;
             _imapper = imapper;
-            this.cashBookClient = cashBookClient;
+            _messagePublisher = messageProducer;
         }
 
         public async Task<Document> AddDocument(DocumentDTO documentDTO)
@@ -52,8 +53,7 @@ namespace Document_Application.Application
                         Type = CashBookType.RECEIVEMENT
                     };
 
-                    var response = await cashBookClient.PostCashBook(cashBookDto);
-                    if (response == false) { throw new Exception("Error to put cashbook! " + response.ToString()); }
+                    _messagePublisher.SendMessage(cashBookDto);
                 }
             }
             return document;
@@ -85,8 +85,7 @@ namespace Document_Application.Application
                     Type = CashBookType.REVERSAL
                 };
 
-                var response = await cashBookClient.PostCashBook(cashBookDTO);
-                if (response == false) { throw new Exception("Error to put cashbook! " + response.ToString()); }
+                _messagePublisher.SendMessage(cashBookDTO);
             }
             return true;
         }
@@ -136,16 +135,9 @@ namespace Document_Application.Application
             }
             else
             {
-                var response = await cashBookClient.PostCashBook(cashBookDTO);
+                _messagePublisher.SendMessage(cashBookDTO);
 
-                if (response == false)
-                {
-                    throw new Exception("Error to post cashbook! " + response.ToString());
-                }
-                else
-                {
-                    await _idocumentService.UpdateDocument(existedDocument);
-                }
+                await _idocumentService.UpdateDocument(existedDocument);
             }
             return existedDocument;
         }
@@ -163,12 +155,8 @@ namespace Document_Application.Application
                 Value = (pvm.Payed == true) ? -document.Total : document.Total,
                 Type = (pvm.Payed == true) ? CashBookType.PAYMENT : CashBookType.RECEIVEMENT
             };
-            var response = await cashBookClient.PostCashBook(cashBookDTO);
-            if (response == false)
-            {
-                throw new Exception("Error to put cashbook! " + response.ToString());
-            }
-            else { await _idocumentService.UpdatePayementDocument(document); }
+            _messagePublisher.SendMessage(cashBookDTO);
+            await _idocumentService.UpdatePayementDocument(document);
             return document;
         }
     }

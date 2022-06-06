@@ -67,3 +67,6 @@ C:\Users\rcm_r\source\repos\FinancialAPP\bin\Debug\DocumentData.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\rcm_r\source\repos\FinancialAPP\bin\Debug\Producer.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\bin\Debug\RabbitMQ.Client.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\bin\Debug\Producer.pdb

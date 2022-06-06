@@ -15,6 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Producer;
 
 namespace Document_Api
 {
@@ -40,6 +41,7 @@ namespace Document_Api
           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddCashBookConfiguration(Configuration);
+            services.AddCashBookProducerConfiguration(Configuration);
 
             services.AddScoped<IDocumentApplication, DocumentApplication>();
 

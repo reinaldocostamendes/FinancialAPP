@@ -82,3 +82,6 @@ C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\refint\Ca
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.genruntimeconfig.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\ref\CashBook_Api.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\Producer.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\Producer.pdb

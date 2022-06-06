@@ -15,6 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Producer;
 
 namespace CashBook_Api
 {
@@ -37,6 +38,7 @@ namespace CashBook_Api
             });
 
             services.AddCashBookConfiguration(Configuration);
+            services.AddCashBookProducerConfiguration(Configuration);
             services.AddDbContext<CashBookContext>(options =>
            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 

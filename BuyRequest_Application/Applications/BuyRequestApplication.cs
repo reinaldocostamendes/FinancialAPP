@@ -7,6 +7,7 @@ using CashBook_API_Client.Interface;
 using CashBookDomain.DTO;
 using Infrastructure.Entity;
 using Infrastructure.Entity.Enums;
+using Producer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,14 +21,16 @@ namespace BuyRequest_Application.Applications
         private readonly IBuyRequestService _buyRequestService;
         private readonly IProductApplication productApplication;
         private readonly IMapper _imapper;
-        private readonly ICashBookClient cashBookClient;
+
+        // private readonly ICashBookClient cashBookClient;
+        private IMessageProducer _messagePublisher;
 
         public BuyRequestApplication(IBuyRequestService buyRequestService,
-            IProductApplication productApplication, IMapper imapper, ICashBookClient cashBookClient)
+            IProductApplication productApplication, IMapper imapper, IMessageProducer messagePublisher)
         {
             _buyRequestService = buyRequestService;
             _imapper = imapper;
-            this.cashBookClient = cashBookClient;
+            _messagePublisher = messagePublisher;
             this.productApplication = productApplication;
         }
 
@@ -67,16 +70,8 @@ namespace BuyRequest_Application.Applications
                     Value = buy_request_to_delete.TotalValue,
                     Type = CashBookType.REVERSAL
                 };
-                var response = await cashBookClient.PostCashBook(cashBookDTO);
-                if (response == false)
-                {
-                    throw new Exception("Error to put cashbook! " + response.ToString());
-                }
-                else
-                {
-                    buy_request_to_delete.Status = BuyRequestStatus.FINISHED;
-                    await _buyRequestService.DeleteBuyRequest(id);
-                }
+
+                _messagePublisher.SendMessage(cashBookDTO);
             }
             else
             {
@@ -140,12 +135,7 @@ namespace BuyRequest_Application.Applications
                 Type = ((buyRequestDTO.TotalValue - buy_request_to_update.TotalValue) > 0)
                 ? CashBookType.PAYMENT : CashBookType.RECEIVEMENT
             };
-
-            var response = await cashBookClient.PostCashBook(cashBookDTO);
-            if (response == false)
-            {
-                throw new Exception("Error to post cashbook! " + response.ToString());
-            }
+            _messagePublisher.SendMessage(cashBookDTO);
 
             return buy_request_to_update;
         }
@@ -196,16 +186,7 @@ namespace BuyRequest_Application.Applications
                     Value = -buy_request_to_update.TotalValue,
                     Type = CashBookType.PAYMENT
                 };
-                var response = await cashBookClient.PostCashBook(cashBookDTO);
-                if (response == false)
-                {
-                    throw new Exception("Error to put cashbook! " + response.ToString());
-                }
-                else
-                {
-                    buy_request_to_update.Status = BuyRequestStatus.FINISHED;
-                    await _buyRequestService.UpdateBuyRequest(buy_request_to_update);
-                }
+                _messagePublisher.SendMessage(cashBookDTO);
             }
             else
             {
