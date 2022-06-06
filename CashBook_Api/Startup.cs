@@ -38,7 +38,9 @@ namespace CashBook_Api
             });
 
             services.AddCashBookConfiguration(Configuration);
+
             services.AddCashBookProducerConfiguration(Configuration);
+
             services.AddDbContext<CashBookContext>(options =>
            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 

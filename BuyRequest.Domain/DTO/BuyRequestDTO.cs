@@ -2,12 +2,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 
 namespace BuyRequestDomain.DTO
 {
     public class BuyRequestDTO
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
+        [JsonIgnore]
+        public Guid Id { get; set; }
+
         public long Code { get; set; }
         public DateTime Date { get; set; }
         public DateTime DeliveryDate { get; set; }

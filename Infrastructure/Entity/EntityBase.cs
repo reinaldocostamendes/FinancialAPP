@@ -7,7 +7,7 @@ namespace Infrastructure.Entity
 {
     public abstract class EntityBase<TEntity>
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
 
         #region Validation
 

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Document_Application.Service
 {
-    public class DocumentService : ServiceBase<Document>, IDocumentService
+    public class DocumentService : IDocumentService
     {
         private readonly IDocumentRepository documentRepository;
 

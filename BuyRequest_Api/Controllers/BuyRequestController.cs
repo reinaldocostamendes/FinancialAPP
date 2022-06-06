@@ -75,16 +75,16 @@ namespace BuyRequest_Api.Controllers
         }
 
         [HttpPut("ChangeStatus")]
-        public async Task<IActionResult> ChangeStatus([FromBody] BuyRequestStatusModel buyRequestStatusViewModel)
+        public async Task<IActionResult> ChangeStatus([FromBody] BuyRequestStatusModel buyRequestStatusModel)
         {
             BuyRequest buyRequestChanged = null;
             try
             {
-                buyRequestChanged = await _irequestApplication.UpdateBuyRequestStatus(buyRequestStatusViewModel.Id, buyRequestStatusViewModel.BuyRequestStatus);
+                buyRequestChanged = await _irequestApplication.UpdateBuyRequestStatus(buyRequestStatusModel.Id, buyRequestStatusModel.BuyRequestStatus);
             }
             catch (Exception ex)
             {
-                return BadRequest(new BuyRequestErrorMessage("" + (int)HttpStatusCode.BadRequest + "", ex.Message, _imapper.Map<BuyRequest>(buyRequestStatusViewModel)));
+                return BadRequest(new BuyRequestErrorMessage("" + (int)HttpStatusCode.BadRequest + "", ex.Message, buyRequestChanged));
             }
             return Ok(buyRequestChanged);
         }

@@ -1859,10 +1859,10 @@
           "FluentValidation": "11.0.1",
           "FluentValidation.AspNetCore": "11.0.1",
           "Json.Net": "1.0.33",
-          "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.2-beta1",
-          "RabbitMQ.Client": "6.3.0"
+          "RabbitMQ.Client": "6.3.0",
+          "Swashbuckle.AspNetCore": "6.3.0"
         },
         "runtime": {
           "Producer.dll": {}

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BuyRequest_Application.Service
 {
-    public class BuyRequestService : ServiceBase<BuyRequest>, IBuyRequestService
+    public class BuyRequestService :  IBuyRequestService
     {
         private readonly IBuyRequestRepository _ibuyRequestrepository;
 

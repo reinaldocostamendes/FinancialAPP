@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CashBook_Application.Service
 {
-    public class CashBookService : ServiceBase<CashBook>, ICashBookService
+    public class CashBookService : ICashBookService
     {
         private readonly ICashBookRepository _cashBookRepository;
 
