@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using RabbitMQConsuer;
 
 namespace CashBook_Api
 {
@@ -7,6 +8,7 @@ namespace CashBook_Api
     {
         public static void Main(string[] args)
         {
+            // RabbitMQMessageReceiver.PullMessage();
             CreateHostBuilder(args).Build().Run();
         }
 
