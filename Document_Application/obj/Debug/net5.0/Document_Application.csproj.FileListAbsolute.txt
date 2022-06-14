@@ -1,3 +1,8 @@
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.csproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\bin\Debug\net5.0\Document_Application.deps.json
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\bin\Debug\net5.0\Document_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\bin\Debug\net5.0\Document_Application.pdb
@@ -19,11 +24,6 @@ C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\bin\Debug\net5.0\I
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\bin\Debug\net5.0\CashBookData.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\bin\Debug\net5.0\CashBook_Application.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\bin\Debug\net5.0\RabbitMQConsumer.pdb
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.csproj.AssemblyReference.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.AssemblyInfoInputs.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.AssemblyInfo.cs
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.csproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.csproj.CopyComplete
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\Document_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Application\obj\Debug\net5.0\refint\Document_Application.dll

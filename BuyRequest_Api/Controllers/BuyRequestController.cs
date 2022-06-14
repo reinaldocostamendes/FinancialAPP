@@ -2,6 +2,7 @@
 using BuyRequest_Api.Contracts;
 using BuyRequest_Application.Interface;
 using BuyRequestDomain.DTO;
+using BuyRequestDomain.Entity;
 using BuyRequestDomain.ViewModels;
 using Infrastructure.Entity;
 using Microsoft.AspNetCore.Mvc;

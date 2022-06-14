@@ -1,4 +1,4 @@
-﻿using Infrastructure.Entity.Enums;
+﻿using BuyRequestDomain.Entity.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

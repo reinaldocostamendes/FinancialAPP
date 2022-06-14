@@ -7,10 +7,11 @@ namespace Infrastructure.Context
     {
         public DataContext(DbContextOptions options) : base(options) => Database.EnsureCreated();
 
-        public DbSet<BuyRequest> BuyRequests { get; set; }
-        public DbSet<CashBook> CashBooks { get; set; }
-        public DbSet<Document> Documents { get; set; }
-        public DbSet<Product> Products { get; set; }
+        /*
+                public DbSet<BuyRequest> BuyRequests { get; set; }
+                public DbSet<CashBook> CashBooks { get; set; }
+                public DbSet<Document> Documents { get; set; }
+                public DbSet<Product> Products { get; set; }*/
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

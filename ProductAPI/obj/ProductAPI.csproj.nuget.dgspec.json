@@ -26,12 +26,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
+                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
+              },
               "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
               }
@@ -88,12 +92,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
+                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
+              },
               "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
               }
@@ -150,6 +158,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -225,6 +234,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -293,6 +303,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -378,6 +389,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -458,6 +470,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -570,6 +583,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -641,6 +655,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -725,6 +740,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -806,6 +822,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

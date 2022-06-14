@@ -1,3 +1,8 @@
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.csproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBook_Application.deps.json
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBook_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBook_Application.pdb
@@ -7,11 +12,6 @@ C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\I
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBookData.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\CashBookDomain.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\bin\Debug\net5.0\Infrastructure.pdb
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.csproj.AssemblyReference.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.AssemblyInfoInputs.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.AssemblyInfo.cs
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.csproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.csproj.CopyComplete
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\CashBook_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Application\obj\Debug\net5.0\refint\CashBook_Application.dll

@@ -27,7 +27,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\BuyRequest.Domain\BuyRequestDomain.csproj" />
 		<ProjectReference Include="..\BuyRequest_Application\BuyRequest_Application.csproj" />
+		<ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
 	</ItemGroup>
 
 </Project>

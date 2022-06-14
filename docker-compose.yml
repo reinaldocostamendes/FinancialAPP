@@ -1,18 +1,7 @@
 version: '3.4'
 networks:
   backend:
-services:
-  cashbook_api:
-    image: ${DOCKER_REGISTRY-}cashbookapi
-    build:
-      context: .
-      dockerfile: CashBook_Api/Dockerfile
-    ports:
-     -  "8088:80"
-    depends_on:
-     - sqldatav2
-    networks:
-     - backend
+services:  
 
   buyrequest_api:
     image: ${DOCKER_REGISTRY-}buyrequestapi
@@ -49,7 +38,18 @@ services:
      - sqldatav2
     networks:
      - backend
-
+  
+  cashbook_api:
+    image: ${DOCKER_REGISTRY-}cashbookapi
+    build:
+      context: .
+      dockerfile: CashBook_Api/Dockerfile
+    ports:
+     -  "8088:80"
+    depends_on:
+     - sqldatav2
+    networks:
+     - backend
 
   sqldatav2:
     image: mcr.microsoft.com/mssql/server:2019-latest
@@ -79,4 +79,4 @@ services:
         - backend
 
  
-  
+

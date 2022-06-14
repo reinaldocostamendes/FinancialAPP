@@ -2,6 +2,7 @@
 using Document_Api.Contracts;
 using Document_Application.Application.Interface;
 using DocumentDomain.DTO;
+using DocumentDomain.Entity;
 using DocumentDomain.ViewModels;
 using Infrastructure.Entity;
 using Microsoft.AspNetCore.Mvc;

@@ -1727,6 +1727,7 @@
       },
       "BuyRequestData/1.0.0": {
         "dependencies": {
+          "BuyRequestDomain": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -1767,6 +1768,7 @@
       },
       "CashBookData/1.0.0": {
         "dependencies": {
+          "CashBookDomain": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "runtime": {

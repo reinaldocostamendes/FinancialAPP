@@ -1,4 +1,5 @@
 ﻿using DocumentDomain.DTO;
+using DocumentDomain.Entity;
 using DocumentDomain.ViewModels;
 using Infrastructure.Entity;
 using System;

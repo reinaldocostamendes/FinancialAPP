@@ -1,7 +1,8 @@
 ﻿using BuyRequestDomain.DTO;
+using BuyRequestDomain.Entity;
+using BuyRequestDomain.Entity.Enums;
 using BuyRequestDomain.ViewModels;
 using Infrastructure.Entity;
-using Infrastructure.Entity.Enums;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;

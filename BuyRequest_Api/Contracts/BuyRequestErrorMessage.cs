@@ -1,4 +1,5 @@
-﻿using Infrastructure.Entity;
+﻿using BuyRequestDomain.Entity;
+using Infrastructure.Entity;
 using Infrastructure.Service.Interface;
 
 namespace BuyRequest_Api.Contracts

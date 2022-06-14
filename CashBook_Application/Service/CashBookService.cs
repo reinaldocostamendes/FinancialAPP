@@ -1,5 +1,6 @@
 ﻿using CashBook_Application.Service.Interface;
 using CashBookData.Repository.Interface;
+using CashBookDomain.Entity;
 using CashBookDomain.ViewModels;
 using Infrastructure.Entity;
 using Infrastructure.Service;

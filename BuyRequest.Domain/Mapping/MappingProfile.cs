@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BuyRequestDomain.DTO;
+using BuyRequestDomain.Entity;
 using BuyRequestDomain.ViewModels;
 using Infrastructure.Entity;
 using System;

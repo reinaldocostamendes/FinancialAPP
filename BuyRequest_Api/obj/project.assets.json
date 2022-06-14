@@ -2129,6 +2129,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "BuyRequestDomain": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "compile": {
@@ -2175,6 +2176,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "CashBookDomain": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "compile": {
@@ -7632,9 +7634,11 @@
     "net5.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "BuyRequestDomain >= 1.0.0",
       "BuyRequest_Application >= 1.0.0",
       "FluentValidation >= 11.0.1",
       "FluentValidation.AspNetCore >= 11.0.1",
+      "Infrastructure >= 1.0.0",
       "Json.Net >= 1.0.33",
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
@@ -7670,14 +7674,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
+              "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
+            },
             "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj": {
               "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj"
+            },
+            "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

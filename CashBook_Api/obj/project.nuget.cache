@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ChKKdKNDRSWVILTck388so6jdsla7DD/hraEx2nnRDhwPXt7sJfjVIdyGGJjZA9UY6phbJCX59dIZByuMczRMQ==",
+  "dgSpecHash": "v44GPobvPZTlu2XmvzTM6UjoQAQOQWCQEOqzekiz/wygz2QHWcRaTxm72y+3v4GS28gszHiJaveGw+FTkdqDEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_Api\\CashBook_Api.csproj",
   "expectedPackageFiles": [
@@ -175,6 +175,7 @@
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\rcm_r\\.nuget\\packages\\infrastructure\\1.0.0\\infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []

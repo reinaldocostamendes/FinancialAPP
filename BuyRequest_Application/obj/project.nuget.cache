@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S8TSKuntCkFdHZD6CxVWz0QT2P89m3tCmhqXM2EAhhShIgAEqJsNng1MxpVjHgEAP5ADYoyQVWoIdkZZ3eHGvw==",
+  "dgSpecHash": "uF5GkcrdWY0nKOUg4S+/o05rSQOi0tFL38nlA4yxA4+Taiy69oVp+Xd1X0tmz9ktvNOIA8f7p9lE+8TwErjzBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj",
   "expectedPackageFiles": [
@@ -143,7 +143,8 @@
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\rcm_r\\.nuget\\packages\\infrastructure\\1.0.0\\infrastructure.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

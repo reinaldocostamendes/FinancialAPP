@@ -1,5 +1,6 @@
-﻿using Infrastructure.Entity;
-using Infrastructure.Entity.Enums;
+﻿using BuyRequestDomain.Entity;
+using BuyRequestDomain.Entity.Enums;
+using Infrastructure.Entity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;

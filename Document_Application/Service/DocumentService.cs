@@ -1,5 +1,6 @@
 ﻿using Document_Application.Service.Interface;
 using DocumentData.Repository.Interface;
+using DocumentDomain.Entity;
 using Infrastructure.Entity;
 using Infrastructure.Service;
 using System;

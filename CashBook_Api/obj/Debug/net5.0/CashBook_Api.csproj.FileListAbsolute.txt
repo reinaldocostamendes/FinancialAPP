@@ -1,3 +1,9 @@
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.csproj.CoreCompileInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\appsettings.json
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\CashBook_Api.exe
@@ -71,13 +77,7 @@ C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\CashBook_
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\CashBookData.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\CashBookDomain.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\bin\Debug\net5.0\Infrastructure.pdb
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.csproj.AssemblyReference.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.AssemblyInfoInputs.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.AssemblyInfo.cs
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.csproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\scopedcss\bundle\CashBook_Api.styles.css
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\staticwebassets\CashBook_Api.StaticWebAssets.Manifest.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\CashBook_Api\obj\Debug\net5.0\CashBook_Api.RazorTargetAssemblyInfo.cache

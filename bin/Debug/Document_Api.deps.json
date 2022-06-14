@@ -2010,6 +2010,7 @@
       },
       "CashBookData/1.0.0": {
         "dependencies": {
+          "CashBookDomain": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -2069,6 +2070,7 @@
       },
       "DocumentData/1.0.0": {
         "dependencies": {
+          "DocumentDomain": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "runtime": {

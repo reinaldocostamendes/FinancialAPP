@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gIBN9YWvO3kOoVRsxpAxYjpM2B3sIAtbYJO1A5rxRKe5AWaniJKqm3Nn6n34EUxtUpsGYEhbrtzOZg2jOFO6MA==",
+  "dgSpecHash": "ILb+WvzyAA7vU56nHxhITLOqhjOy27+Za4DI0IuXAsjs4Hl/dP7Atwpe3IOlazdEcGZE4ouuJErXN+kM3P4Gwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj",
   "expectedPackageFiles": [
@@ -170,7 +170,8 @@
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\rcm_r\\.nuget\\packages\\infrastructure\\1.0.0\\infrastructure.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

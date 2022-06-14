@@ -1,4 +1,4 @@
-﻿using Infrastructure.Entity.Enums;
+﻿using DocumentDomain.Entity.Enums;
 using System;
 
 namespace DocumentDomain.DTO

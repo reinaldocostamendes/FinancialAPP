@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using DocumentDomain.DTO;
+using DocumentDomain.Entity;
 using Infrastructure.Entity;
 using System;
 

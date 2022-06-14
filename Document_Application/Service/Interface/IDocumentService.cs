@@ -1,4 +1,5 @@
-﻿using Infrastructure.Entity;
+﻿using DocumentDomain.Entity;
+using Infrastructure.Entity;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;

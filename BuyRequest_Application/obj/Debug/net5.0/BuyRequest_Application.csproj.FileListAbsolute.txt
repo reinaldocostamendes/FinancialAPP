@@ -1,3 +1,8 @@
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.csproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequest_Application.deps.json
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequest_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\BuyRequest_Application.pdb
@@ -19,11 +24,6 @@ C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\CashBook_Application.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\Infrastructure.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\bin\Debug\net5.0\RabbitMQConsumer.pdb
-C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.csproj.AssemblyReference.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.AssemblyInfoInputs.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.AssemblyInfo.cs
-C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.csproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.csproj.CopyComplete
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\BuyRequest_Application.dll
 C:\Users\rcm_r\source\repos\FinancialAPP\BuyRequest_Application\obj\Debug\net5.0\refint\BuyRequest_Application.dll

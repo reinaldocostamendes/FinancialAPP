@@ -1,5 +1,6 @@
 ﻿using BuyRequest_Application.Service.Interface;
 using BuyRequestData.Repository.Interface;
+using BuyRequestDomain.Entity;
 using Infrastructure.Entity;
 using System;
 using System.Collections.Generic;

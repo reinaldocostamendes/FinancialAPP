@@ -1,4 +1,5 @@
-﻿using Infrastructure.Entity;
+﻿using CashBookDomain.Entity;
+using Infrastructure.Entity;
 using System.Collections.Generic;
 
 namespace CashBookDomain.ViewModels

@@ -2579,6 +2579,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "CashBookDomain": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "compile": {
@@ -2646,6 +2647,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "DocumentDomain": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "compile": {
@@ -8653,6 +8655,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

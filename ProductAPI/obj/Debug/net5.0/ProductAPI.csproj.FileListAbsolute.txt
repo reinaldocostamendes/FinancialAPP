@@ -1,3 +1,9 @@
+C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.csproj.CoreCompileInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\bin\Debug\net5.0\appsettings.json
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\bin\Debug\net5.0\ProductAPI.exe
@@ -78,13 +84,7 @@ C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\bin\Debug\net5.0\CashBook_Ap
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\bin\Debug\net5.0\Infrastructure.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\bin\Debug\net5.0\RabbitMQConsumer.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\bin\Debug\net5.0\RabbitMQProducer.pdb
-C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.csproj.AssemblyReference.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.AssemblyInfoInputs.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.AssemblyInfo.cs
-C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.csproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\scopedcss\bundle\ProductAPI.styles.css
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\staticwebassets\ProductAPI.StaticWebAssets.Manifest.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\ProductAPI\obj\Debug\net5.0\ProductAPI.RazorTargetAssemblyInfo.cache

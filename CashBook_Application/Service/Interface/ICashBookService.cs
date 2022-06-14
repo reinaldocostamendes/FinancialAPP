@@ -1,4 +1,5 @@
-﻿using CashBookDomain.ViewModels;
+﻿using CashBookDomain.Entity;
+using CashBookDomain.ViewModels;
 using Infrastructure.Entity;
 using System;
 using System.Threading.Tasks;

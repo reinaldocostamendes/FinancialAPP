@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CashBookDomain.DTO;
+using CashBookDomain.Entity;
 using Infrastructure.Entity;
 
 namespace CashBookDomain.Mapping

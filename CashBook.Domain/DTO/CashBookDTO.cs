@@ -1,4 +1,4 @@
-﻿using Infrastructure.Entity.Enums;
+﻿using CashBookDomain.Entity.Enums;
 using System;
 
 namespace CashBookDomain.DTO

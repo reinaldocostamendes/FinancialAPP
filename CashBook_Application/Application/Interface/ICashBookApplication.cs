@@ -1,4 +1,5 @@
 ﻿using CashBookDomain.DTO;
+using CashBookDomain.Entity;
 using CashBookDomain.ViewModels;
 using Infrastructure.Entity;
 using System;

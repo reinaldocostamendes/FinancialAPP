@@ -1,3 +1,9 @@
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.csproj.CoreCompileInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\appsettings.json
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\Document_Api.exe
@@ -77,13 +83,7 @@ C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\DocumentD
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\DocumentDomain.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\RabbitMQConsumer.pdb
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\bin\Debug\net5.0\RabbitMQProducer.pdb
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.csproj.AssemblyReference.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.AssemblyInfoInputs.cache
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.AssemblyInfo.cs
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.csproj.CoreCompileInputs.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\scopedcss\bundle\Document_Api.styles.css
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\staticwebassets\Document_Api.StaticWebAssets.Manifest.cache
 C:\Users\rcm_r\source\repos\FinancialAPP\Document_Api\obj\Debug\net5.0\Document_Api.RazorTargetAssemblyInfo.cache

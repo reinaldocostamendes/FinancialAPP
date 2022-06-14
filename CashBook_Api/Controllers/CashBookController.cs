@@ -1,6 +1,7 @@
 ﻿using CashBook_Api.Contracts;
 using CashBook_Application.Application.Interface;
 using CashBookDomain.DTO;
+using CashBookDomain.Entity;
 using CashBookDomain.ViewModels;
 using Infrastructure.Entity;
 using Microsoft.AspNetCore.Mvc;

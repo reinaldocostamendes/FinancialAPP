@@ -11,7 +11,8 @@
         "cashbook_api": "StartDebugging",
         "document_api": "StartDebugging",
         "productapi": "StartDebugging",
-        "sqldatav2": "StartWithoutDebugging"
+        "sqldatav2": "StartWithoutDebugging",
+        "rabbitmq": "StartWithoutDebugging"
       }
     }
   }

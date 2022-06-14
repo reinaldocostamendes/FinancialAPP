@@ -1,5 +1,6 @@
 ﻿using BuyRequest_Application.Service.Interface;
 using BuyRequestData.Repository.Interface;
+using BuyRequestDomain.Entity;
 using Infrastructure.Entity;
 using Infrastructure.Service;
 using System;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BuyRequest_Application.Service
 {
-    public class BuyRequestService :  IBuyRequestService
+    public class BuyRequestService : IBuyRequestService
     {
         private readonly IBuyRequestRepository _ibuyRequestrepository;
 

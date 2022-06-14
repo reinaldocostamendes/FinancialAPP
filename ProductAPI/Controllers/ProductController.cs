@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using BuyRequest_Application.Interface;
 using BuyRequestDomain.DTO;
+using BuyRequestDomain.Entity;
 using Infrastructure.Entity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

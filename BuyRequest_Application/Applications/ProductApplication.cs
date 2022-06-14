@@ -2,6 +2,7 @@
 using BuyRequest_Application.Interface;
 using BuyRequest_Application.Service.Interface;
 using BuyRequestDomain.DTO;
+using BuyRequestDomain.Entity;
 using Infrastructure.Entity;
 using System;
 using System.Collections.Generic;

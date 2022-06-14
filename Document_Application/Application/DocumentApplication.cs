@@ -1,12 +1,13 @@
 ﻿using AutoMapper;
 using CashBook_API_Client.Interface;
 using CashBookDomain.DTO;
+using CashBookDomain.Entity.Enums;
 using Document_Application.Application.Interface;
 using Document_Application.Service.Interface;
 using DocumentDomain.DTO;
+using DocumentDomain.Entity;
 using DocumentDomain.ViewModels;
 using Infrastructure.Entity;
-using Infrastructure.Entity.Enums;
 using Producer;
 using System;
 using System.Collections.Generic;
