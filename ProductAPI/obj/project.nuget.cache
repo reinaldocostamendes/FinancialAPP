@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PxMJMQHz3hqmhuLECr+AMcLd+YuK2IYBGljmfAiKaZZTYLS7UckyNAsaUYj4ncyNuF8dpNmYyl23qzDWl5gwbQ==",
+  "dgSpecHash": "JqpTddOB3pugsYqeRMtVpyQ7lpTEdVx+w0LAv8b7u5XG8S6HnBPUTQ4Hp/bFmu4sGBuKFYBj125BtrH8N64kkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj",
   "expectedPackageFiles": [
@@ -145,7 +145,7 @@
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\rcm_r\\.nuget\\packages\\infrastructure\\1.0.0\\infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\rcm_r\\.nuget\\packages\\infrastructure\\1.0.2\\infrastructure.1.0.2.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []

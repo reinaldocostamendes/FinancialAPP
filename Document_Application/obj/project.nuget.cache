@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/JAHO4xJWsYfVOXw4b4IX6ux0O0NznNcDl+IzhYuIc9Ro9/h9OiB6EQss/Rb4ibt9OvVMMEghzcR6O7hmp1O5g==",
+  "dgSpecHash": "3m+UPchHBXOiw9CBEt+XMrgPVo3Lj1JYFqo5Khsc2bM9rlmtHiPKAkNVJXyTluwiANf7cACQlY1L/2Nh52HIyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Document_Application\\Document_Application.csproj",
   "expectedPackageFiles": [
@@ -171,7 +171,7 @@
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rcm_r\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\rcm_r\\.nuget\\packages\\infrastructure\\1.0.0\\infrastructure.1.0.0.nupkg.sha512"
+    "C:\\Users\\rcm_r\\.nuget\\packages\\infrastructure\\1.0.2\\infrastructure.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }

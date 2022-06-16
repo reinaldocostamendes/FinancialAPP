@@ -2580,7 +2580,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "CashBookDomain": "1.0.0",
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.2"
         },
         "compile": {
           "bin/placeholder/CashBookData.dll": {}
@@ -2595,7 +2595,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
-          "Infrastructure": "1.0.0",
+          "Infrastructure": "1.0.2",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -2648,7 +2648,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "DocumentDomain": "1.0.0",
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.2"
         },
         "compile": {
           "bin/placeholder/DocumentData.dll": {}
@@ -2663,7 +2663,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
-          "Infrastructure": "1.0.0",
+          "Infrastructure": "1.0.2",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -2674,7 +2674,7 @@
           "bin/placeholder/DocumentDomain.dll": {}
         }
       },
-      "Infrastructure/1.0.0": {
+      "Infrastructure/1.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -8598,7 +8598,7 @@
       "path": "../Document.Domain/DocumentDomain.csproj",
       "msbuildProject": "../Document.Domain/DocumentDomain.csproj"
     },
-    "Infrastructure/1.0.0": {
+    "Infrastructure/1.0.2": {
       "type": "project",
       "path": "../Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../Infrastructure/Infrastructure.csproj"
@@ -8623,7 +8623,7 @@
       "DocumentData >= 1.0.0",
       "DocumentDomain >= 1.0.0",
       "FluentValidation >= 11.0.1",
-      "Infrastructure >= 1.0.0",
+      "Infrastructure >= 1.0.2",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
       "RabbitMQProducer >= 1.0.0"

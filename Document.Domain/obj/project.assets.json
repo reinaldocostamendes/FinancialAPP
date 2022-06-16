@@ -1866,7 +1866,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Infrastructure/1.0.0": {
+      "Infrastructure/1.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -6584,7 +6584,7 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Infrastructure/1.0.0": {
+    "Infrastructure/1.0.2": {
       "type": "project",
       "path": "../Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../Infrastructure/Infrastructure.csproj"
@@ -6594,7 +6594,7 @@
     "net5.0": [
       "AutoMapper >= 11.0.1",
       "FluentValidation >= 11.0.1",
-      "Infrastructure >= 1.0.0",
+      "Infrastructure >= 1.0.2",
       "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17"
     ]
