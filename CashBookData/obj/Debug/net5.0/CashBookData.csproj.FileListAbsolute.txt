@@ -1,0 +1,17 @@
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\bin\Debug\net5.0\CashBookData.deps.json
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\bin\Debug\net5.0\CashBookData.dll
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\bin\Debug\net5.0\CashBookData.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\bin\Debug\net5.0\CashBookDomain.dll
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\bin\Debug\net5.0\CashBookDomain.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\CashBookData.csproj.AssemblyReference.cache
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\CashBookData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\CashBookData.AssemblyInfoInputs.cache
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\CashBookData.AssemblyInfo.cs
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\CashBookData.csproj.CoreCompileInputs.cache
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\CashBookData.csproj.CopyComplete
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\CashBookData.dll
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\refint\CashBookData.dll
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\CashBookData.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\CashBookData\obj\Debug\net5.0\ref\CashBookData.dll

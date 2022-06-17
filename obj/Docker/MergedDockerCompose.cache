@@ -1,8 +1,8 @@
-name: dockercompose478022587515339535
+name: dockercompose7563040157711713634
 services:
   buyrequest_api:
     build:
-      context: C:\Users\rcm_r\source\repos\FinancialAPP
+      context: C:\Users\rcostame\source\repos\FinancialAPP
       dockerfile: BuyRequest_Api/Dockerfile
     depends_on:
       sqldatav2:
@@ -17,7 +17,7 @@ services:
       protocol: tcp
   cashbook_api:
     build:
-      context: C:\Users\rcm_r\source\repos\FinancialAPP
+      context: C:\Users\rcostame\source\repos\FinancialAPP
       dockerfile: CashBook_Api/Dockerfile
     depends_on:
       sqldatav2:
@@ -32,7 +32,7 @@ services:
       protocol: tcp
   document_api:
     build:
-      context: C:\Users\rcm_r\source\repos\FinancialAPP
+      context: C:\Users\rcostame\source\repos\FinancialAPP
       dockerfile: Document_Api/Dockerfile
     depends_on:
       sqldatav2:
@@ -47,7 +47,7 @@ services:
       protocol: tcp
   productapi:
     build:
-      context: C:\Users\rcm_r\source\repos\FinancialAPP
+      context: C:\Users\rcostame\source\repos\FinancialAPP
       dockerfile: ProductAPI/Dockerfile
     depends_on:
       sqldatav2:
@@ -76,12 +76,12 @@ services:
       protocol: tcp
     volumes:
     - type: bind
-      source: C:\Users\rcm_r\.docker-conf\rabbitmq\data
+      source: C:\Users\rcostame\.docker-conf\rabbitmq\data
       target: /var/lib/rabbitmq
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\rcm_r\.docker-conf\rabbitmq\log
+      source: C:\Users\rcostame\.docker-conf\rabbitmq\log
       target: /var/log/rabbitmq
       bind:
         create_host_path: true
@@ -106,4 +106,4 @@ services:
         create_host_path: true
 networks:
   backend:
-    name: dockercompose478022587515339535_backend
+    name: dockercompose7563040157711713634_backend

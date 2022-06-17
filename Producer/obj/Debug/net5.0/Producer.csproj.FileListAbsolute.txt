@@ -1,0 +1,15 @@
+C:\Users\rcm_r\source\repos\Producer\bin\Debug\net5.0\Producer.deps.json
+C:\Users\rcm_r\source\repos\Producer\bin\Debug\net5.0\Producer.dll
+C:\Users\rcm_r\source\repos\Producer\bin\Debug\net5.0\Producer.pdb
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\Producer.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\Producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\Producer.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\Producer.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\Producer.csproj.CoreCompileInputs.cache
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\Producer.dll
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\refint\Producer.dll
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\Producer.pdb
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\ref\Producer.dll
+C:\Users\rcm_r\source\repos\Producer\bin\Debug\net5.0\Producer.runtimeconfig.json
+C:\Users\rcm_r\source\repos\Producer\bin\Debug\net5.0\Producer.runtimeconfig.dev.json
+C:\Users\rcm_r\source\repos\Producer\obj\Debug\net5.0\Producer.genruntimeconfig.cache

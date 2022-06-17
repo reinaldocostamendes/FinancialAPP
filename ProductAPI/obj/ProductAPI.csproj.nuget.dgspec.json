@@ -1,231 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj": {}
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rcm_r\\source\\repos\\BuyRequestData\\BuyRequestData.csproj": {
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\BuyRequestData\\BuyRequestData.csproj",
-        "projectName": "BuyRequestData",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\BuyRequestData\\BuyRequestData.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\BuyRequestData\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
-              },
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\rcm_r\\source\\repos\\CashBookData\\CashBookData.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\CashBookData\\CashBookData.csproj",
-        "projectName": "CashBookData",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\CashBookData\\CashBookData.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\CashBookData\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
-              },
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\rcm_r\\source\\repos\\Consumer\\RabbitMQConsumer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\Consumer\\RabbitMQConsumer.csproj",
-        "projectName": "RabbitMQConsumer",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\Consumer\\RabbitMQConsumer.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\Consumer\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
-              },
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "RabbitMQ.Client": {
-              "target": "Package",
-              "version": "[6.3.0, )"
-            },
-            "System.Configuration.ConfigurationManager": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj",
         "projectName": "BuyRequestDomain",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\obj\\",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -234,15 +23,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -277,24 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj": {
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj",
-        "projectName": "BuyRequest_Application",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\obj\\",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj",
+        "projectName": "BuyRequestData",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -303,24 +88,85 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\BuyRequestData\\BuyRequestData.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\BuyRequestData\\BuyRequestData.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
               },
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj",
+        "projectName": "BuyRequest_Application",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest_Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
               },
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj"
               },
-              "C:\\Users\\rcm_r\\source\\repos\\Producer\\RabbitMQProducer.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\Producer\\RabbitMQProducer.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj"
+              },
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Producer\\RabbitMQProducer.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Producer\\RabbitMQProducer.csproj"
               }
             }
           }
@@ -363,24 +209,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj",
         "projectName": "CashBookDomain",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\obj\\",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -389,15 +232,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -444,24 +286,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBookData\\CashBookData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj",
-        "projectName": "CashBook_API_Client",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\obj\\",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBookData\\CashBookData.csproj",
+        "projectName": "CashBookData",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBookData\\CashBookData.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBookData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -470,15 +309,76 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
+              },
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj",
+        "projectName": "CashBook_API_Client",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
               }
             }
           }
@@ -557,24 +457,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj": {
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj",
         "projectName": "CashBook_Application",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_Application\\obj\\",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -583,18 +480,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\CashBookData\\CashBookData.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\CashBookData\\CashBookData.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
               },
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBookData\\CashBookData.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBookData\\CashBookData.csproj"
               }
             }
           }
@@ -629,24 +525,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
-      "version": "1.0.2",
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Consumer\\RabbitMQConsumer.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\obj\\",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Consumer\\RabbitMQConsumer.csproj",
+        "projectName": "RabbitMQConsumer",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Consumer\\RabbitMQConsumer.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Consumer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -655,7 +548,78 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
+              },
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_Application\\CashBook_Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.2",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -714,106 +678,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj": {
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Producer\\RabbitMQProducer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj",
-        "projectName": "ProductAPI",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\ProductAPI\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.14.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.3.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\rcm_r\\source\\repos\\Producer\\RabbitMQProducer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\Producer\\RabbitMQProducer.csproj",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Producer\\RabbitMQProducer.csproj",
         "projectName": "RabbitMQProducer",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\Producer\\RabbitMQProducer.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\Producer\\obj\\",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Producer\\RabbitMQProducer.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Producer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -822,15 +701,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\Consumer\\RabbitMQConsumer.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\Consumer\\RabbitMQConsumer.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Consumer\\RabbitMQConsumer.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Consumer\\RabbitMQConsumer.csproj"
               }
             }
           }
@@ -903,7 +781,79 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj",
+        "projectName": "ProductAPI",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\ProductAPI\\ProductAPI.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\ProductAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

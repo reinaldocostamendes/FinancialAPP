@@ -1,0 +1,17 @@
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\bin\Debug\net5.0\BuyRequestData.deps.json
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\bin\Debug\net5.0\BuyRequestData.dll
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\bin\Debug\net5.0\BuyRequestData.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\bin\Debug\net5.0\BuyRequestDomain.dll
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\bin\Debug\net5.0\BuyRequestDomain.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\BuyRequestData.csproj.AssemblyReference.cache
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\BuyRequestData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\BuyRequestData.AssemblyInfoInputs.cache
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\BuyRequestData.AssemblyInfo.cs
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\BuyRequestData.csproj.CoreCompileInputs.cache
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\BuyRequestData.csproj.CopyComplete
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\BuyRequestData.dll
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\refint\BuyRequestData.dll
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\BuyRequestData.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\BuyRequestData\obj\Debug\net5.0\ref\BuyRequestData.dll

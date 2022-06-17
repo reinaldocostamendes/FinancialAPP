@@ -39,8 +39,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Consumer\RabbitMQConsumer.csproj" />
-    <ProjectReference Include="..\..\Producer\RabbitMQProducer.csproj" />
+    <ProjectReference Include="..\Consumer\RabbitMQConsumer.csproj" />
+    <ProjectReference Include="..\Producer\RabbitMQProducer.csproj" />
     <ProjectReference Include="..\CashBook_API_Client\CashBook_API_Client.csproj" />
     <ProjectReference Include="..\CashBook_Application\CashBook_Application.csproj" />
   </ItemGroup>

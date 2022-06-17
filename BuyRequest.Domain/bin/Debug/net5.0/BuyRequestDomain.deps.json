@@ -9,7 +9,7 @@
       "BuyRequestDomain/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.2"
         },
         "runtime": {
           "BuyRequestDomain.dll": {}
@@ -1362,7 +1362,7 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Infrastructure/1.0.0": {
+      "Infrastructure/1.0.2": {
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
@@ -2237,7 +2237,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Infrastructure/1.0.0": {
+    "Infrastructure/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

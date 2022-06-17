@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CashBookData\CashBookData.csproj" />
+    <ProjectReference Include="..\CashBookData\CashBookData.csproj" />
     <ProjectReference Include="..\CashBook.Domain\CashBookDomain.csproj" />
   </ItemGroup>
 

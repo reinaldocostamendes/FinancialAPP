@@ -1,0 +1,17 @@
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\bin\Debug\net5.0\DocumentData.deps.json
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\bin\Debug\net5.0\DocumentData.dll
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\bin\Debug\net5.0\DocumentData.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\bin\Debug\net5.0\DocumentDomain.dll
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\bin\Debug\net5.0\DocumentDomain.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\DocumentData.csproj.AssemblyReference.cache
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\DocumentData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\DocumentData.AssemblyInfoInputs.cache
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\DocumentData.AssemblyInfo.cs
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\DocumentData.csproj.CoreCompileInputs.cache
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\DocumentData.csproj.CopyComplete
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\DocumentData.dll
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\refint\DocumentData.dll
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\DocumentData.pdb
+C:\Users\rcostame\source\repos\FinancialAPP\DocumentData\obj\Debug\net5.0\ref\DocumentData.dll

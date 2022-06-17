@@ -1315,7 +1315,7 @@
       "BuyRequestData/1.0.0": {
         "dependencies": {
           "BuyRequestDomain": "1.0.0",
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.2"
         },
         "runtime": {
           "BuyRequestData.dll": {}
@@ -1324,7 +1324,7 @@
       "BuyRequestDomain/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.2"
         },
         "runtime": {
           "BuyRequestDomain.dll": {}
@@ -1333,7 +1333,7 @@
       "CashBookData/1.0.0": {
         "dependencies": {
           "CashBookDomain": "1.0.0",
-          "Infrastructure": "1.0.0"
+          "Infrastructure": "1.0.2"
         },
         "runtime": {
           "CashBookData.dll": {}
@@ -1343,7 +1343,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
-          "Infrastructure": "1.0.0",
+          "Infrastructure": "1.0.2",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -1378,7 +1378,7 @@
           "CashBook_Application.dll": {}
         }
       },
-      "Infrastructure/1.0.0": {
+      "Infrastructure/1.0.2": {
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
@@ -2437,7 +2437,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Infrastructure/1.0.0": {
+    "Infrastructure/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {}
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj",
         "projectName": "CashBookDomain",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\obj\\",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +23,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -81,24 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj",
         "projectName": "CashBook_API_Client",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\obj\\",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,15 +100,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
-                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
+              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj": {
+                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook.Domain\\CashBookDomain.csproj"
               }
             }
           }
@@ -194,24 +186,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -220,7 +209,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -279,7 +267,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
