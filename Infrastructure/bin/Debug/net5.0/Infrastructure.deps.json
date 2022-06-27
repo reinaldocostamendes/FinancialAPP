@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Infrastructure/1.0.2": {
+      "Infrastructure/1.0.3": {
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
@@ -1369,7 +1369,7 @@
     }
   },
   "libraries": {
-    "Infrastructure/1.0.2": {
+    "Infrastructure/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

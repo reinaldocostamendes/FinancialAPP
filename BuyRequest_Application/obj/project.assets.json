@@ -2083,7 +2083,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "BuyRequestDomain": "1.0.0",
-          "Infrastructure": "1.0.2"
+          "Infrastructure": "1.0.3"
         },
         "compile": {
           "bin/placeholder/BuyRequestData.dll": {}
@@ -2097,7 +2097,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "Infrastructure": "1.0.2"
+          "Infrastructure": "1.0.3"
         },
         "compile": {
           "bin/placeholder/BuyRequestDomain.dll": {}
@@ -2111,7 +2111,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "CashBookDomain": "1.0.0",
-          "Infrastructure": "1.0.2"
+          "Infrastructure": "1.0.3"
         },
         "compile": {
           "bin/placeholder/CashBookData.dll": {}
@@ -2126,7 +2126,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
-          "Infrastructure": "1.0.2",
+          "Infrastructure": "1.0.3",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -2174,7 +2174,7 @@
           "bin/placeholder/CashBook_Application.dll": {}
         }
       },
-      "Infrastructure/1.0.2": {
+      "Infrastructure/1.0.3": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -7409,7 +7409,7 @@
       "path": "../CashBook_Application/CashBook_Application.csproj",
       "msbuildProject": "../CashBook_Application/CashBook_Application.csproj"
     },
-    "Infrastructure/1.0.2": {
+    "Infrastructure/1.0.3": {
       "type": "project",
       "path": "../Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../Infrastructure/Infrastructure.csproj"
@@ -7437,19 +7437,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rcostame\\.nuget\\packages\\": {}
+    "C:\\Users\\rcm_r\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj",
+      "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj",
       "projectName": "BuyRequest_Application",
-      "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj",
-      "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest_Application\\obj\\",
+      "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\BuyRequest_Application.csproj",
+      "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest_Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7458,23 +7462,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
-              "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
+            "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
+              "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
             },
-            "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj": {
-              "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj"
+            "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj": {
+              "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj"
             },
-            "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {
-              "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj"
+            "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj": {
+              "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\CashBook_API_Client\\CashBook_API_Client.csproj"
             },
-            "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Producer\\RabbitMQProducer.csproj": {
-              "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Producer\\RabbitMQProducer.csproj"
+            "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Producer\\RabbitMQProducer.csproj": {
+              "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Producer\\RabbitMQProducer.csproj"
             }
           }
         }
@@ -7517,7 +7522,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

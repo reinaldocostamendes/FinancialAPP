@@ -38,11 +38,11 @@ namespace RabbitMQConsuer
             };
             var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
-
+            channel.QueueDeclare("cashbooks", exclusive: false);
+            var consumer = new EventingBasicConsumer(channel);
             while (true)
             {
-                channel.QueueDeclare("cashbooks", exclusive: false);
-                var consumer = new EventingBasicConsumer(channel);
+                
                 consumer.Received += (model, eventArgs) =>
                 {
                     var body = eventArgs.Body.ToArray();

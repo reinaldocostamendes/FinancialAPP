@@ -6578,19 +6578,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rcostame\\.nuget\\packages\\": {}
+    "C:\\Users\\rcm_r\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6599,6 +6603,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6657,7 +6662,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

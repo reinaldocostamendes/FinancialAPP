@@ -9,7 +9,7 @@
       "BuyRequestData/1.0.0": {
         "dependencies": {
           "BuyRequestDomain": "1.0.0",
-          "Infrastructure": "1.0.2"
+          "Infrastructure": "1.0.3"
         },
         "runtime": {
           "BuyRequestData.dll": {}
@@ -1365,13 +1365,13 @@
       "BuyRequestDomain/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "Infrastructure": "1.0.2"
+          "Infrastructure": "1.0.3"
         },
         "runtime": {
           "BuyRequestDomain.dll": {}
         }
       },
-      "Infrastructure/1.0.2": {
+      "Infrastructure/1.0.3": {
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
@@ -2251,7 +2251,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Infrastructure/1.0.2": {
+    "Infrastructure/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

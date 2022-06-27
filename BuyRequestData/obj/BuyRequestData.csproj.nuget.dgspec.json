@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj": {}
+    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
+    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj",
+        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj",
         "projectName": "BuyRequestDomain",
-        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj",
-        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\obj\\",
+        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj",
+        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -23,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -65,21 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj": {
+    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj",
+        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj",
         "projectName": "BuyRequestData",
-        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj",
-        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequestData\\obj\\",
+        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequestData\\BuyRequestData.csproj",
+        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequestData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -88,17 +95,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
-                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
+              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj": {
+                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\BuyRequest.Domain\\BuyRequestDomain.csproj"
               },
-              "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -127,21 +135,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
-      "version": "1.0.2",
+    "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.3",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\rcostame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rcostame\\source\\repos\\FinancialAPP\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rcm_r\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rcostame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rcm_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -150,6 +161,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rcm_r\\source\\repos\\FinancialAPP\\Infrastructure": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -208,7 +220,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

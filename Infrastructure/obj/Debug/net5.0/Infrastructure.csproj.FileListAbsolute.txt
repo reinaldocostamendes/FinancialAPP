@@ -10,3 +10,15 @@ C:\Users\rcostame\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\Infr
 C:\Users\rcostame\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\refint\Infrastructure.dll
 C:\Users\rcostame\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
 C:\Users\rcostame\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\refint\Infrastructure.dll
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\rcm_r\source\repos\FinancialAPP\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
