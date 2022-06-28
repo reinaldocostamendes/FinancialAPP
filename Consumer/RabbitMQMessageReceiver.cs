@@ -21,7 +21,7 @@ namespace RabbitMQConsuer
 
         public Task StartAsync(CancellationToken cancellationToken)
         {
-            PullMessage();
+            new Thread(PullMessage).Start();
             return Task.CompletedTask;
         }
 
@@ -30,7 +30,7 @@ namespace RabbitMQConsuer
             throw new NotImplementedException();
         }
 
-        public Task PullMessage()
+        public void PullMessage()
         {
             var factory = new ConnectionFactory
             {
@@ -42,7 +42,6 @@ namespace RabbitMQConsuer
             var consumer = new EventingBasicConsumer(channel);
             while (true)
             {
-                
                 consumer.Received += (model, eventArgs) =>
                 {
                     var body = eventArgs.Body.ToArray();
@@ -53,6 +52,7 @@ namespace RabbitMQConsuer
                 };
 
                 channel.BasicConsume(queue: "cashbooks", autoAck: true, consumer: consumer);
+                Thread.Sleep(1000000000);
             }
             // Console.ReadKey();
         }
