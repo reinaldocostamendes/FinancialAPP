@@ -1962,7 +1962,7 @@
       "CashBookData/1.0.0": {
         "dependencies": {
           "CashBookDomain": "1.0.0",
-          "Infrastructure": "1.0.2"
+          "Infrastructure": "1.0.3"
         },
         "runtime": {
           "CashBookData.dll": {}
@@ -1972,7 +1972,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
-          "Infrastructure": "1.0.2",
+          "Infrastructure": "1.0.3",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -2028,7 +2028,7 @@
           "CashBook_Application.dll": {}
         }
       },
-      "Infrastructure/1.0.2": {
+      "Infrastructure/1.0.3": {
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
@@ -3418,7 +3418,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Infrastructure/1.0.2": {
+    "Infrastructure/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

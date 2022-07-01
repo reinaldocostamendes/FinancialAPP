@@ -11,7 +11,7 @@
           "Bogus": "34.0.2",
           "BuyRequestDomain": "1.0.0",
           "BuyRequest_Application": "1.0.0",
-          "Infrastructure": "1.0.2",
+          "Infrastructure": "1.0.3",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "Moq.AutoMock": "3.3.1-ci0247",
           "ProductAPI": "1.0.0",
@@ -1708,45 +1708,135 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "BuyRequestData/1.0.0": {
+        "dependencies": {
+          "BuyRequestDomain": "1.0.0",
+          "Infrastructure": "1.0.3"
+        },
+        "runtime": {
+          "BuyRequestData.dll": {}
+        }
+      },
       "BuyRequestDomain/1.0.0": {
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "Infrastructure": "1.0.2"
+          "Infrastructure": "1.0.3"
         },
         "runtime": {
           "BuyRequestDomain.dll": {}
         }
       },
-      "BuyRequestData.Reference/1.0.0.0": {
+      "BuyRequest_Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "BuyRequestData": "1.0.0",
+          "BuyRequestDomain": "1.0.0",
+          "CashBook_API_Client": "1.0.0",
+          "DevExpress.Data": "21.2.8-pre-22131",
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "RabbitMQProducer": "1.0.0"
+        },
         "runtime": {
-          "BuyRequestData.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "BuyRequest_Application.dll": {}
         }
       },
-      "RabbitMQProducer.Reference/1.0.0.0": {
+      "CashBookData/1.0.0": {
+        "dependencies": {
+          "CashBookDomain": "1.0.0",
+          "Infrastructure": "1.0.3"
+        },
         "runtime": {
-          "RabbitMQProducer.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CashBookData.dll": {}
         }
       },
-      "CashBookDomain.Reference/1.0.0.0": {
+      "CashBookDomain/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "FluentValidation": "11.0.1",
+          "Infrastructure": "1.0.3",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
         "runtime": {
-          "CashBookDomain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CashBookDomain.dll": {}
         }
       },
-      "CashBook_API_Client.Reference/1.0.0.0": {
+      "CashBook_API_Client/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "CashBookDomain": "1.0.0",
+          "FluentValidation": "11.0.1",
+          "FluentValidation.AspNetCore": "11.0.1",
+          "Json.Net": "1.0.33",
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.5",
+          "Swashbuckle.AspNetCore": "6.3.0"
+        },
         "runtime": {
-          "CashBook_API_Client.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CashBook_API_Client.dll": {}
+        }
+      },
+      "CashBook_Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "CashBookData": "1.0.0",
+          "CashBookDomain": "1.0.0"
+        },
+        "runtime": {
+          "CashBook_Application.dll": {}
+        }
+      },
+      "Infrastructure/1.0.3": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "FluentValidation": "11.0.1",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
+        }
+      },
+      "ProductAPI/1.0.0": {
+        "dependencies": {
+          "BuyRequest_Application": "1.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
+          "Swashbuckle.AspNetCore": "6.3.0"
+        },
+        "runtime": {
+          "ProductAPI.dll": {}
+        }
+      },
+      "RabbitMQConsumer/1.0.0": {
+        "dependencies": {
+          "CashBookDomain": "1.0.0",
+          "CashBook_Application": "1.0.0",
+          "RabbitMQ.Client": "6.3.0",
+          "System.Configuration.ConfigurationManager": "5.0.0"
+        },
+        "runtime": {
+          "RabbitMQConsumer.dll": {}
+        }
+      },
+      "RabbitMQProducer/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "FluentValidation": "11.0.1",
+          "FluentValidation.AspNetCore": "11.0.1",
+          "Json.Net": "1.0.33",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Newtonsoft.Json": "13.0.2-beta1",
+          "RabbitMQ.Client": "6.3.0",
+          "RabbitMQConsumer": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.3.0"
+        },
+        "runtime": {
+          "RabbitMQProducer.dll": {}
         }
       }
     }
@@ -2884,28 +2974,58 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
+    "BuyRequestData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "BuyRequestDomain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "BuyRequestData.Reference/1.0.0.0": {
-      "type": "reference",
+    "BuyRequest_Application/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "RabbitMQProducer.Reference/1.0.0.0": {
-      "type": "reference",
+    "CashBookData/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CashBookDomain.Reference/1.0.0.0": {
-      "type": "reference",
+    "CashBookDomain/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CashBook_API_Client.Reference/1.0.0.0": {
-      "type": "reference",
+    "CashBook_API_Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CashBook_Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RabbitMQConsumer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RabbitMQProducer/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

@@ -12,7 +12,7 @@
           "DocumentDomain": "1.0.0",
           "Document_Api": "1.0.0",
           "Document_Application": "1.0.0",
-          "Infrastructure": "1.0.2",
+          "Infrastructure": "1.0.3",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "Moq.AutoMock": "3.3.1-ci0247",
           "coverlet.collector": "3.1.0",
@@ -1963,7 +1963,7 @@
       "CashBookData/1.0.0": {
         "dependencies": {
           "CashBookDomain": "1.0.0",
-          "Infrastructure": "1.0.2"
+          "Infrastructure": "1.0.3"
         },
         "runtime": {
           "CashBookData.dll": {}
@@ -1973,7 +1973,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
-          "Infrastructure": "1.0.2",
+          "Infrastructure": "1.0.3",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
@@ -2011,7 +2011,7 @@
       "DocumentData/1.0.0": {
         "dependencies": {
           "DocumentDomain": "1.0.0",
-          "Infrastructure": "1.0.2"
+          "Infrastructure": "1.0.3"
         },
         "runtime": {
           "DocumentData.dll": {}
@@ -2021,12 +2021,31 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.0.1",
-          "Infrastructure": "1.0.2",
+          "Infrastructure": "1.0.3",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
         "runtime": {
           "DocumentDomain.dll": {}
+        }
+      },
+      "Document_Api/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "CashBook_API_Client": "1.0.0",
+          "Document_Application": "1.0.0",
+          "FluentValidation": "11.0.1",
+          "FluentValidation.AspNetCore": "11.0.1",
+          "Infrastructure": "1.0.3",
+          "Json.Net": "1.0.33",
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.5",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
+          "Swashbuckle.AspNetCore": "6.3.0"
+        },
+        "runtime": {
+          "Document_Api.dll": {}
         }
       },
       "Document_Application/1.0.0": {
@@ -2038,13 +2057,26 @@
           "DocumentData": "1.0.0",
           "DocumentDomain": "1.0.0",
           "FluentValidation": "11.0.1",
-          "Infrastructure": "1.0.2",
+          "Infrastructure": "1.0.3",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "RabbitMQProducer": "1.0.0"
         },
         "runtime": {
           "Document_Application.dll": {}
+        }
+      },
+      "Infrastructure/1.0.3": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "FluentValidation": "11.0.1",
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "Infrastructure.dll": {}
         }
       },
       "RabbitMQConsumer/1.0.0": {
@@ -3429,7 +3461,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Document_Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Document_Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
