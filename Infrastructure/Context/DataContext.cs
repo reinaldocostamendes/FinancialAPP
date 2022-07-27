@@ -19,6 +19,7 @@ namespace Infrastructure.Context
                  .HasForeignKey(e => e.OrderId).IsRequired(true).OnDelete(DeleteBehavior.Cascade);*/
         }
 
+        //Ola
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
